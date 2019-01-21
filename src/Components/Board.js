@@ -9,11 +9,11 @@ export default class Board extends React.Component {
       let column = [];
       for(let j = 0; j < w; j++){
         column.push(
-          <Circle/>
+          <Circle key={`circle-${j}`}/>
         );
       }
       rows.push(
-        <div className='row'>
+        <div className='row' key={`row-${i}`}>
           {column}
         </div>
       );
