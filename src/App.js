@@ -10,7 +10,6 @@ class App extends Component {
           length={10}
           width={10}/>
         <div
-          style={{width: '410px'}}
           className='main-text-wrapper'>
           <div
            className='title'>PR<div class='o-fill'></div>CESSING</div>
@@ -19,7 +18,6 @@ class App extends Component {
           </div>
         </div>
         <div
-          style={{width: '410px'}}
           className='footer'>
           <a href='https://github.com/withcheesepls/Processing-Poster'>Check out the Source Code</a>
         </div>

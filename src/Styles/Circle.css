@@ -1,11 +1,19 @@
 .circle-wrapper {
-  width: 15px;
-  height: 15px;
+  width: 12px;
+  height: 12px;
   position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 13px
+  margin: 10px;
+}
+
+@media (min-width: 576px) {
+  .circle-wrapper {
+    width: 15px;
+    height: 15px;
+    margin: 13px;
+  }
 }
 
 .circle-wrapper .circle {
