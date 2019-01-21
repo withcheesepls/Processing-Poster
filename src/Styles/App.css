@@ -1,0 +1,40 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: rgb(246, 246, 246);
+  padding: 30px 20px;
+  font-size: .9rem;
+  min-height: 100vh;
+  box-sizing: border-box;
+}
+
+.App .main-text-wrapper {
+  margin: 50px 0;
+}
+
+.App .title .o-fill {
+  display: inline-block;
+  width: .93rem;
+  height: .93rem;
+  background-color: rgb(246, 246, 246);
+  border-radius: 100%;
+  margin: 0 .27rem 0 .22rem;
+}
+
+.App .title {
+  margin-bottom: 25px;
+  font-size: 1.25rem;
+  font-weight: 600;
+  letter-spacing: .2rem
+}
+
+a {
+  color: rgb(198, 198, 198);
+  text-decoration: none;
+}
+
+.App .footer {
+  font-size: .8rem;
+  margin-top: auto;
+}

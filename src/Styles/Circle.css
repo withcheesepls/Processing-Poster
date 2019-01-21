@@ -1,0 +1,27 @@
+.circle-wrapper {
+  width: 15px;
+  height: 15px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 13px
+}
+
+.circle-wrapper .circle {
+  border-radius: 100%;
+  background-color: rgb(246, 246, 246);
+  animation: pulse 1s linear infinite;
+  animation-direction: alternate;
+}
+
+@keyframes pulse {
+  from {
+    height: 0;
+    width: 0;
+  }
+  to {
+    height: 100%;
+    width: 100%;
+  }
+}
